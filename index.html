@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>SMG - URL Shortener Microservice</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   </head>
+   <body>
+      <div class="container">
+         <h1 class="header">
+            URL Shortener Microservice for FreeCodeCamp
+         </h1>
+         <blockquote>
+            User stories:
+            <ul>1) I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
+            </ul>
+            <ul>2) If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</ul>
+            <ul>3) When I visit that shortened URL, it will redirect me to my original link.</ul>
+         </blockquote>
+         <h3>Example usage:</h3>
+         <code>https://smg-url-short.herokuapp.com/new/https://www.google.com</code><br>
+         <h3>Example output:</h3>
+         <code>
+         {
+             "original_url":"http://www.google.com", 
+             "short_url":"https://smg-url-short.herokuapp.com/12345"
+         }
+         </code>
+      </div>
+      <br><br>
+   </body>
+   <footer class="footer">
+      <script src="https://use.fontawesome.com/c51cc08ec6.js"></script>
+      <div class="container-fluid text-center">
+         <div class="footer-text text-muted row">
+            Created by Sérgio Gaspar for freeCodeCamp Challenge:
+            <a href="https://www.freecodecamp.com/challenges/url-shortener-microservice" target="_blank">URL Shortener Microservice</a>.
+         </div>
+         <div class="social-icons">
+            <h2><a href="https://github.com/sergiomgaspar" target="_blank"  ><i id="github" class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="http://codepen.io/sergiomgaspar/" target="_blank"><i id="codepen" class="fa fa-codepen" aria-hidden="true"></i></a>
+            <a href="https://www.freecodecamp.com/sergiomgaspar" target="_blank"><i id="freecodecamp" class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/sergiomgaspar" target="_blank"><i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/sergiomgaspar" target="_blank"><i id="twitter" class="fa fa-twitter" aria-hidden="true"></i></a></h2>
+         </div>
+      </div>
+   </footer>
+</html>

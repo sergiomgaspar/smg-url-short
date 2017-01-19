@@ -1,0 +1,25 @@
+{
+  "name": "@sergiomgaspar/sandbox",
+  "version": "1.0.2",
+  "description": "FCC Timestamp",
+  "main": "timestamp.js",
+  "scripts": {
+    "start": "node url-short.js",
+    "test": "node url-short.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiomgaspar/smg-url-short.git"
+  },
+  "author": "sergiomgaspar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiomgaspar/smg-url-short/issues"
+  },
+  "homepage": "https://github.com/sergiomgaspar/smg-url-short#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+	"mongodb": "^2.2.20"
+  }
+}
